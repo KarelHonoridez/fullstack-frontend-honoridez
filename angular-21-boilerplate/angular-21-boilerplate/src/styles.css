@@ -1,0 +1,33 @@
+/* Global styles */
+a { cursor: pointer; }
+
+/* Login page background */
+.bg-login-image {
+    background: url('https://source.unsplash.com/K4mSJ7kc0As/600x800') center center no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+
+/* App container */
+.app-container {
+    min-height: calc(100vh - 56px);
+}
+
+.app-container.bg-light {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Alert positioning */
+app-alert {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+/* Spinner center */
+.align-center {
+    display: block;
+    margin: 0 auto;
+}
