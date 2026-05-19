@@ -1,5 +1,5 @@
 export const environment = {
     production: true,
-    apiUrl: 'https://backend-honoridez.onrender.com',
+    apiUrl: 'https://fullstack-backend-honoridez.onrender.com',
     useFakeBackend: false
 };
